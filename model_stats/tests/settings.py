@@ -31,4 +31,6 @@ INTERNAL_APPS = [
 
 INSTALLED_APPS = EXTERNAL_APPS + INTERNAL_APPS
 
+NOSE_ARGS = ['--nologcapture']
+
 SECRET_KEY = 'secretkey'
